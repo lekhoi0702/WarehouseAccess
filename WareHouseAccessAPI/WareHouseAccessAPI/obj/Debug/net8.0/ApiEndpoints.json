@@ -1,0 +1,672 @@
+[
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.AccessLogController",
+    "Method": "ConfirmCheckOut",
+    "RelativePath": "WarehouseAccess/AccessLog/ConfirmCheckOut",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WarehouseAccessAPI.Dtos.ConfirmCheckOutRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Dtos.AccessLogDetailDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.AccessLogController",
+    "Method": "CreateCheckIn",
+    "RelativePath": "WarehouseAccess/AccessLog/CreateCheckIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WarehouseAccessAPI.Dtos.CreateAccessLogCheckInRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Dtos.AccessLogDetailDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.AccessLogController",
+    "Method": "ExportHistoryExcel",
+    "RelativePath": "WarehouseAccess/AccessLog/ExportHistoryExcel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fromDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.AccessLogController",
+    "Method": "GetHistory",
+    "RelativePath": "WarehouseAccess/AccessLog/GetHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fromDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "take",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[System.Collections.Generic.List\u00601[[WarehouseAccessAPI.Dtos.AccessLogDetailDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.AccessLogController",
+    "Method": "GetLiveMonitor",
+    "RelativePath": "WarehouseAccess/AccessLog/GetLiveMonitor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "take",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[System.Collections.Generic.List\u00601[[WarehouseAccessAPI.Dtos.AccessLogDetailDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.AccessLogController",
+    "Method": "LookupByCard",
+    "RelativePath": "WarehouseAccess/AccessLog/LookupByCard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WarehouseAccessAPI.Dtos.LookupByCardRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Dtos.LookupByCardResponseDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.MasterDataController",
+    "Method": "CreateContactDept",
+    "RelativePath": "WarehouseAccess/MasterData/CreateContactDept",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WarehouseAccessAPI.Dtos.ContactDeptUpsertRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Dtos.ContactDeptItemDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.MasterDataController",
+    "Method": "CreateDepartment",
+    "RelativePath": "WarehouseAccess/MasterData/CreateDepartment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WarehouseAccessAPI.Dtos.DepartmentUpsertRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Dtos.DepartmentItemDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.MasterDataController",
+    "Method": "CreatePurpose",
+    "RelativePath": "WarehouseAccess/MasterData/CreatePurpose",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WarehouseAccessAPI.Dtos.PurposeUpsertRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Dtos.PurposeItemDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.MasterDataController",
+    "Method": "DeleteContactDept",
+    "RelativePath": "WarehouseAccess/MasterData/DeleteContactDept",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contactDeptId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.MasterDataController",
+    "Method": "DeleteDepartment",
+    "RelativePath": "WarehouseAccess/MasterData/DeleteDepartment",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deptCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.MasterDataController",
+    "Method": "DeletePurpose",
+    "RelativePath": "WarehouseAccess/MasterData/DeletePurpose",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "purposeId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.MasterDataController",
+    "Method": "GetContactDepts",
+    "RelativePath": "WarehouseAccess/MasterData/GetContactDepts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[System.Collections.Generic.List\u00601[[WarehouseAccessAPI.Dtos.ContactDeptItemDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.MasterDataController",
+    "Method": "GetDepartments",
+    "RelativePath": "WarehouseAccess/MasterData/GetDepartments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[System.Collections.Generic.List\u00601[[WarehouseAccessAPI.Dtos.DepartmentItemDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.MasterDataController",
+    "Method": "GetPurposes",
+    "RelativePath": "WarehouseAccess/MasterData/GetPurposes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[System.Collections.Generic.List\u00601[[WarehouseAccessAPI.Dtos.PurposeItemDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.MasterDataController",
+    "Method": "UpdateContactDept",
+    "RelativePath": "WarehouseAccess/MasterData/UpdateContactDept",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WarehouseAccessAPI.Dtos.ContactDeptUpsertRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Dtos.ContactDeptItemDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.MasterDataController",
+    "Method": "UpdateDepartment",
+    "RelativePath": "WarehouseAccess/MasterData/UpdateDepartment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WarehouseAccessAPI.Dtos.DepartmentUpsertRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Dtos.DepartmentItemDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.MasterDataController",
+    "Method": "UpdatePurpose",
+    "RelativePath": "WarehouseAccess/MasterData/UpdatePurpose",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WarehouseAccessAPI.Dtos.PurposeUpsertRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Dtos.PurposeItemDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.UserManagementController",
+    "Method": "CreateUser",
+    "RelativePath": "WarehouseAccess/UserManagement/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WarehouseAccessAPI.Dtos.CreateUserRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Dtos.UserListItemDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.UserManagementController",
+    "Method": "DeleteUser",
+    "RelativePath": "WarehouseAccess/UserManagement/DeleteUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.UserManagementController",
+    "Method": "ExportUsersTemplate",
+    "RelativePath": "WarehouseAccess/UserManagement/ExportUsersTemplate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.UserManagementController",
+    "Method": "GetDepartments",
+    "RelativePath": "WarehouseAccess/UserManagement/GetDepartments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[System.Collections.Generic.List\u00601[[WarehouseAccessAPI.Dtos.DepartmentLookupDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.UserManagementController",
+    "Method": "GetUsers",
+    "RelativePath": "WarehouseAccess/UserManagement/GetUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "deptCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Common.PagedResult\u00601[[WarehouseAccessAPI.Dtos.UserListItemDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.UserManagementController",
+    "Method": "ImportUsers",
+    "RelativePath": "WarehouseAccess/UserManagement/ImportUsers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Dtos.ImportUsersResultDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WarehouseAccessAPI.Controllers.UserManagementController",
+    "Method": "UpdateUser",
+    "RelativePath": "WarehouseAccess/UserManagement/UpdateUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WarehouseAccessAPI.Dtos.UpdateUserRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WarehouseAccessAPI.Common.Response\u00601[[WarehouseAccessAPI.Dtos.UserListItemDto, WarehouseAccessAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

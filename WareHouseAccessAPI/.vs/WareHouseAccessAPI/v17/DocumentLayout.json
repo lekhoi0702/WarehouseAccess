@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|d:\\source\\repos\\warehouseaccess\\warehouseaccessapi\\warehouseaccessapi\\controllers\\accesslogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|solutionrelative:warehouseaccessapi\\controllers\\accesslogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|d:\\source\\repos\\warehouseaccess\\warehouseaccessapi\\warehouseaccessapi\\controllers\\masterdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|solutionrelative:warehouseaccessapi\\controllers\\masterdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|d:\\source\\repos\\warehouseaccess\\warehouseaccessapi\\warehouseaccessapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|solutionrelative:warehouseaccessapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|d:\\source\\repos\\warehouseaccess\\warehouseaccessapi\\warehouseaccessapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|solutionrelative:warehouseaccessapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|d:\\source\\repos\\warehouseaccess\\warehouseaccessapi\\warehouseaccessapi\\dtos\\importusersresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|solutionrelative:warehouseaccessapi\\dtos\\importusersresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|d:\\source\\repos\\warehouseaccess\\warehouseaccessapi\\warehouseaccessapi\\dtos\\createaccesslogcheckinrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|solutionrelative:warehouseaccessapi\\dtos\\createaccesslogcheckinrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|d:\\source\\repos\\warehouseaccess\\warehouseaccessapi\\warehouseaccessapi\\dtos\\accesslogdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|solutionrelative:warehouseaccessapi\\dtos\\accesslogdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|d:\\source\\repos\\warehouseaccess\\warehouseaccessapi\\warehouseaccessapi\\dtos\\createuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|solutionrelative:warehouseaccessapi\\dtos\\createuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|d:\\source\\repos\\warehouseaccess\\warehouseaccessapi\\warehouseaccessapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|solutionrelative:warehouseaccessapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|d:\\source\\repos\\warehouseaccess\\warehouseaccessapi\\warehouseaccessapi\\models\\warehouseaccessdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C00B987A-5987-4388-86EA-495120282536}|WareHouseAccessAPI\\WarehouseAccessAPI.csproj|solutionrelative:warehouseaccessapi\\models\\warehouseaccessdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MasterDataController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Controllers\\MasterDataController.cs",
+              "RelativeDocumentMoniker": "WareHouseAccessAPI\\Controllers\\MasterDataController.cs",
+              "ToolTip": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Controllers\\MasterDataController.cs",
+              "RelativeToolTip": "WareHouseAccessAPI\\Controllers\\MasterDataController.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAuwAsBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T08:46:46.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WareHouseAccessAPI\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Program.cs",
+              "RelativeToolTip": "WareHouseAccessAPI\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T08:38:43.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WareHouseAccessAPI\\appsettings.json",
+              "ToolTip": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\appsettings.json",
+              "RelativeToolTip": "WareHouseAccessAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-26T08:25:46.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImportUsersResultDto.cs",
+              "DocumentMoniker": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Dtos\\ImportUsersResultDto.cs",
+              "RelativeDocumentMoniker": "WareHouseAccessAPI\\Dtos\\ImportUsersResultDto.cs",
+              "ToolTip": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Dtos\\ImportUsersResultDto.cs",
+              "RelativeToolTip": "WareHouseAccessAPI\\Dtos\\ImportUsersResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T08:07:56.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccessLogDetailDto.cs",
+              "DocumentMoniker": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Dtos\\AccessLogDetailDto.cs",
+              "RelativeDocumentMoniker": "WareHouseAccessAPI\\Dtos\\AccessLogDetailDto.cs",
+              "ToolTip": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Dtos\\AccessLogDetailDto.cs",
+              "RelativeToolTip": "WareHouseAccessAPI\\Dtos\\AccessLogDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T08:10:26.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateAccessLogCheckInRequestDto.cs",
+              "DocumentMoniker": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Dtos\\CreateAccessLogCheckInRequestDto.cs",
+              "RelativeDocumentMoniker": "WareHouseAccessAPI\\Dtos\\CreateAccessLogCheckInRequestDto.cs",
+              "ToolTip": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Dtos\\CreateAccessLogCheckInRequestDto.cs",
+              "RelativeToolTip": "WareHouseAccessAPI\\Dtos\\CreateAccessLogCheckInRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T08:10:22.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateUserRequestDto.cs",
+              "DocumentMoniker": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Dtos\\CreateUserRequestDto.cs",
+              "RelativeDocumentMoniker": "WareHouseAccessAPI\\Dtos\\CreateUserRequestDto.cs",
+              "ToolTip": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Dtos\\CreateUserRequestDto.cs",
+              "RelativeToolTip": "WareHouseAccessAPI\\Dtos\\CreateUserRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T08:10:21.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccessLogController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Controllers\\AccessLogController.cs",
+              "RelativeDocumentMoniker": "WareHouseAccessAPI\\Controllers\\AccessLogController.cs",
+              "ToolTip": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Controllers\\AccessLogController.cs",
+              "RelativeToolTip": "WareHouseAccessAPI\\Controllers\\AccessLogController.cs",
+              "ViewState": "AgIAANMBAAAAAAAAAAApwOEBAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T07:18:37.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WareHouseAccessAPI\\Models\\User.cs",
+              "ToolTip": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Models\\User.cs",
+              "RelativeToolTip": "WareHouseAccessAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T07:16:30.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WarehouseAccessDbContext.cs",
+              "DocumentMoniker": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Models\\WarehouseAccessDbContext.cs",
+              "RelativeDocumentMoniker": "WareHouseAccessAPI\\Models\\WarehouseAccessDbContext.cs",
+              "ToolTip": "D:\\source\\repos\\WareHouseAccess\\WareHouseAccessAPI\\WareHouseAccessAPI\\Models\\WarehouseAccessDbContext.cs",
+              "RelativeToolTip": "WareHouseAccessAPI\\Models\\WarehouseAccessDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T07:16:28.732Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

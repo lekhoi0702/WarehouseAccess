@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", "Source Sans 3", "Trebuchet MS", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
