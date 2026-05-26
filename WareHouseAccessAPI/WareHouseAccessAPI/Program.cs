@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using WarehouseAccessAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseUrls("http://10.0.111.118:5111");
+builder.WebHost.UseUrls("http://localhost:5111");
 const string FrontendCorsPolicy = "FrontendCorsPolicy";
 
 builder.Services.AddDbContext<WarehouseAccessDbContext>(options =>
@@ -16,7 +16,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(FrontendCorsPolicy, policy =>
     {
         policy
-            .WithOrigins("https://10.0.111.118:5173")
+            .WithOrigins("https://10.0.111.118:5173", "https://localhost:5173")
             .AllowAnyHeader()
             .AllowAnyMethod();
     });

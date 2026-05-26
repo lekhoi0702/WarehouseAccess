@@ -29,7 +29,7 @@ public partial class WarehouseAccessDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=192.168.0.179;Database=WarehouseAccessDB;User Id=sa;Password=Jiahsin@123;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=ADMIN-PC;Database=WarehouseAccessDB;User Id=sa;Password=Jiahsin@123;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
